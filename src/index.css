@@ -1,0 +1,58 @@
+:root {
+  --bg: #070505;
+  --bg-2: #120c0c;
+  --ink: #f4ece4;
+  --muted: #b7a79a;
+  --gold: #e2b15a;
+  --gold-2: #8a5a1e;
+  --red: #c1121f;
+  --line: rgba(226, 177, 90, 0.28);
+  --sans: 'Manrope', system-ui, sans-serif;
+  --display: 'Bebas Neue', Impact, sans-serif;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--bg);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
